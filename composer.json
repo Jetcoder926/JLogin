@@ -1,0 +1,37 @@
+{
+    "name": "jetcoder/token-login",
+    "description": "A packages for practice jwt&socialite o(∩_∩)o",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Allen",
+            "email": "253754900@qq.com"
+        }
+    ],
+    "require": {
+        "overtrue/laravel-socialite": "~2.0",
+        "tymon/jwt-auth": "1.*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Jetcoder\\JLogin\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jetcoder\\JLogin\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                    "Jetcoder\\JLogin\\LoginActServiceProvider"
+            ]
+
+        }
+    }
+
+
+
+}
