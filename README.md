@@ -1,6 +1,6 @@
 # JLogin
 
-### 一个练习用的laravel包  包含了tymon的jwt与overtrue大神的laravel-socialite
+
 ### 使用
 
 1. 创建配置文件 **php artisan vendor:publish --provider="Jetcoder\JLogin\LoginActServiceProvider"**
@@ -22,7 +22,7 @@
 
 
   
-3. 配置jwt,这里不多说了.官方已经详细说明了 https://jwt-auth.readthedocs.io/en/develop/
+3. 配置jwt,这里不赘述了.官方已经详细说明 https://jwt-auth.readthedocs.io/en/develop/
 
 4. 配置.env文件
 
